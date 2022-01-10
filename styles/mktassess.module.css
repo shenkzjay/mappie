@@ -1,0 +1,23 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    
+ 
+}
+
+.wrap h1{
+    align-self:flex-start;
+    margin: 20px 140px;
+}
+
+.media{
+   display: grid;
+   grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+   width: 80%;
+   grid-gap:2em;
+   place-content: center;
+}
+

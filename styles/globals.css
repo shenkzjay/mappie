@@ -1,0 +1,38 @@
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* leaflet container */
+.leaflet-container{
+  height: 570px;
+  width: 100%;
+}
+
+
+/* Map */
+svg {
+  transform: scale(2.5);
+}
+
+path{
+  fill:#c4c4c4;
+}
+
+path:hover{
+  fill:orange;
+}
+

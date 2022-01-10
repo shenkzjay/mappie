@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.wrap{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+}
+
+.leftbar{
+  height: 100vh;
+}
+
+.leftbarcard_top{
+  margin: 20px 20px;
+  border-radius: 10px;
+  
+}
+
+.leftbarcard_top p{
+  text-align: justify;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+/* leftcard bottom sidebar */
+.leftcard_bottom{
+  margin: 20px;
+  border-radius: 10px;
+  height: 60vh;
+  overflow-y: scroll;
+  background: #f2f2f2;
+}
+
+
+.leftcard_cards {
+ margin: 10px 20px;
+  width: 400px;
+ height: 50px;
+ background: white;
+ border-radius:8px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ font-size: 14px
+ 
+
+}
+
+.leftcard_cards > div{
+ margin: 15px;
+
+}
+
+.spotter >div{
+  margin: 0 20px;
+}
+
+.spotter{
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftcardbox{
+  padding:0 15px;
+  background: rgb(203, 247, 255);
+  border-radius:4px;
+  color:rgb(18, 156, 180);
+}
+
+.leftcard_bottom label{
+  margin:0 30px;
+  color: #aaaaaa;
+}
+
+
+.rightbar{
+ width: 100%;
+ height: 600px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
