@@ -7,12 +7,14 @@ import dynamic from "next/dynamic"
 
 
 
+
 //Home function
 function Home() {
     const MapDisplay = dynamic(() => import("../components/MapDisplay"), {
         loading: () => <p>Loading...</p>,
         ssr: false
       });
+      
     return (
         <div>
             <Head>
@@ -45,7 +47,7 @@ function Home() {
                                     <div>Blockchain Association</div>
                                     <div className={style.spotter}>
                                     {/* <div className={style.leftcardbox}>40</div> */}
-                                    <div><img src="/arrow.svg" alt="decking" crossOrigin="anonymous"></img></div>
+                                    <div><img src="/arrow.svg" alt="decking" ></img></div>
                                     </div>
                                     </div></Link>
 
@@ -54,7 +56,7 @@ function Home() {
                                     <div>Projects</div>
                                     <div className={style.spotter}>
                                     {/* <div className={style.leftcardbox}>12</div> */}
-                                    <div><img src="/arrow.svg" alt="decking" crossOrigin="anonymous"></img></div>
+                                    <div><img src="/arrow.svg" alt="decking" ></img></div>
                                     </div>
                                     </div></Link>
                                     
@@ -72,7 +74,7 @@ function Home() {
                                     <div>P2P Stats</div>
                                     <div className={style.spotter}>
                                     {/* <div className={style.leftcardbox}>230,234.34</div> */}
-                                    <div><img src="/arrow.svg" alt="decking" crossOrigin="anonymous"></img></div>
+                                    <div><img src="/arrow.svg" alt="decking" ></img></div>
                                     </div>
                                     </div></Link>
 
@@ -81,7 +83,7 @@ function Home() {
                                     <div>Crypto events</div>
                                     <div className={style.spotter}>
                                     {/* <div className={style.leftcardbox}>2</div> */}
-                                    <div><img src="/arrow.svg" alt="decking" crossOrigin="anonymous"></img></div>
+                                    <div><img src="/arrow.svg" alt="decking" ></img></div>
                                     </div>
                                     </div></Link>
 
@@ -90,7 +92,7 @@ function Home() {
                                     <div>Country notable crypto report</div>
                                     <div className={style.spotter}>
                                     {/* <div className={style.leftcardbox}>9</div> */}
-                                    <div><img src="/arrow.svg" alt="decking" crossOrigin="anonymous"></img></div>
+                                    <div><img src="/arrow.svg" alt="decking" ></img></div>
                                     </div>
                                     </div></Link>
                                

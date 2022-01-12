@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+/* title */
+.title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    height: 80vh;
+    width: 100%;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-bottom: 1px solid  #f2f2f2;
+    padding:70px 20px;
+}
+
+.wrapcard{ 
+     
+}
+
+.text{
+    padding: 30px;
+    text-align: justify;
+}
+
+
+.textrow{
+    padding: 100px;
+}
+
+.wrapgod{
+    background: white;
+    margin: 0 200px;
+}
+
+.wraprow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 50vh;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+
+/** we connect yoh **/
+.connect{
+   margin:0 50px;
+   
+}
+.wrapconnect{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-bottom: 1px solid  #f2f2f2;
+    flex-direction: column;
+   padding: 100px 0;
+}
+
+.wrapcardclip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px 50px;
+}
+
+.wrapcardconnect{
+    padding: 50px 30px;
+    height: 50vh;
+    background: #f2f2f2;
+    border-right:2px solid #ffffff;
+    text-align:justify;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column
+}
+
+.textconnect{
+    padding: 55px;
+    height: 50vh;
+    background: #f2f2f2;
+    text-align:justify;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column
+}
+
+/* what we can do for you page */
+.wrapservice{
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px; 
+    padding: 80px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+.servicetxt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.text li{
+    list-style:none;
+    display: list-item;
+    margin: 0;
+}
+
+.wrapserviceall{
+    border-bottom: 1px solid  #f2f2f2;
+}
+
+/* our team style */
+.wrapteam{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-bottom: 1px solid #f2f2f2;
+    padding:100px 20px;
+}
