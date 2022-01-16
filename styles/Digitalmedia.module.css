@@ -1,0 +1,21 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.wrap h1{
+    align-self:flex-start;
+    margin: 30px 140px;
+}
+
+.media{
+   display: grid;
+   grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+   width: 80%;
+   grid-gap:.5em;
+   place-content: center;
+}
+
