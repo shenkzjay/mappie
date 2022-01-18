@@ -6,9 +6,6 @@ import style from "../styles/About.module.css"
 function About() {
     return (
         <div>
-            <Head>
-                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-            </Head>
             <div className={style.bigwrap}>
                 <Layout>
                     <div className={style.title}><h1>About us</h1></div>
@@ -16,7 +13,7 @@ function About() {
                     <div className={style.wrapgod}>
                         <div className={style.wrap}>
                             <div className={style.wrapcard}>
-                                <img src="/user.svg" alt="white #d ball with shadow" width="150px" height="150px" />
+                                <img src="/who we are.png" alt="white #d ball with shadow" width="230px" height="200px" />
                             </div>
                             <div className={style.text}>
                                 <h1>Who we are</h1>
@@ -43,7 +40,7 @@ function About() {
                         {/* our story page */}
                         <div className={style.wrap}>
                             <div className={style.wrapcard}>
-                                <img src="/note-2.png" alt="white #d ball with shadow" width="150px" height="150x" />
+                                <img src="/our story.png" alt="white #d ball with shadow" width="230px" height="200px" />
                             </div>
                             <div className={style.text}>
                                 <h1>Our Story</h1>
@@ -83,7 +80,7 @@ function About() {
                         {/* our why page */}
                         <div className={style.wrap}>
                             <div className={style.wrapcard}>
-                                <img src="/frame.png" alt="white #d ball with shadow" width="150px" height="150px" />
+                                <img src="/our why.png" alt="white #d ball with shadow" width="230px" height="200px" />
                             </div>
                             <div className={style.text}>
                                 <h1>Our why</h1>
@@ -159,7 +156,7 @@ function About() {
                             </div>
                             <div className={style.servicetxt}>
                                 <div className={style.wrapcard}>
-                                    <img src="/chart.png" alt="white #d ball with shadow" width="150px" height="150px" />
+                                    <img src="/Market entry.png" alt="white #d ball with shadow" width="230px" height="200px" />
                                 </div>
                                 <div className={style.text}>
                                     <h4>Market Entry/Assessment</h4>
@@ -179,7 +176,7 @@ function About() {
 
                             <div className={style.servicetxt}>
                                 <div className={style.wrapcard}>
-                                    <img src="/teacher.png" alt="white #d ball with shadow" width="150px" height="150px" />
+                                    <img src="/Training.png" alt="white #d ball with shadow" width="230px" height="200px" />
                                 </div>
                                 <div className={style.text}>
                                     <h4> Training/Education for Consumer Awareness and Market Readines</h4>
@@ -203,7 +200,7 @@ function About() {
                             <br/>
                             <div className={style.servicetxt}>
                                 <div className={style.wrapcard}>
-                                    <img src="/smileys.png" alt="white #d ball with shadow" width="150px" height="150px" />
+                                    <img src="/Consumer eng.png" alt="white #d ball with shadow" width="230px" height="200px" />
                                 </div>
                                 <div className={style.text}>
                                     <h4>Consumer engagement</h4>
@@ -240,7 +237,7 @@ function About() {
                             </div>
                             <div className={style.servicetxt}>
                                 <div className={style.wrapcard}>
-                                    <img src="/bitcoin-refresh.png" alt="white #d ball with shadow" width="150px" height="150px" />
+                                    <img src="/audiences.png" alt="white #d ball with shadow" width="230px" height="200px" />
                                 </div>
                                 <div className={style.text}>
                                     <p>
@@ -267,7 +264,7 @@ function About() {
                             {/* Out team page */}
                             <div className={style.wrapteam}>
                             <div className={style.wrapcard}>
-                                <img src="/people.png" alt="white #d ball with shadow" width="150px" height="150"/>
+                                <img src="/team.png" alt="white #d ball with shadow" width="230px" height="200px" />
                             </div>
                             <div className={style.text}>
                                 <h1>Our Team</h1>
@@ -284,7 +281,7 @@ function About() {
                         {/* who we work with */}
                         <div className={style.wrapteam}>
                             <div className={style.wrapcard}>
-                                <img src="/bubble.png" alt="white #d ball with shadow" width="150px" height="150px" />
+                                <img src="/who we work with.png" alt="white #d ball with shadow" width="230px" height="200px" />
                             </div>
                             <div className={style.text}>
                                 <h1>Who we work with</h1>
