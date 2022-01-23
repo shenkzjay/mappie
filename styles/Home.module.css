@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 .wrap {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -75,10 +74,4 @@
 .rightbar {
     width: 100%;
     height: 600px;
-}
-
-.leftcard_cards:hover{
-    box-shadow: 5px 10px 20px -5px rgba(163,163,163,0.24);
-    -webkit-box-shadow: 5px 10px 20px -5px rgba(163,163,163,0.24);
-    -moz-box-shadow: 5px 10px 20px -5px rgba(163,163,163,0.24);
 }

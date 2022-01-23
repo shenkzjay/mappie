@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90vh;
     flex-direction: column;
-
+    background: #f2f2f2;
 }
 
 .wrap h1{
@@ -15,7 +16,7 @@
    display: grid;
    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
    width: 80%;
-   grid-gap:.5em;
+   grid-gap:2em;
    place-content: center;
 }
 

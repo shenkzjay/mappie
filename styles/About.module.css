@@ -7,32 +7,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color:white;
+    border: 2px solid red;
     height: 80vh;
     width: 100%;
-    background: url("/abtbg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 64px;
 }
 
 .wrap{
     display: flex;
     justify-content: center;
-    align-items: flex-start;  
+    align-items: center;  
     border-bottom: 1px solid  #f2f2f2;
     padding:70px 20px;
 }
 
 .wrapcard{ 
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding:0px 20px;
+     
 }
 
 .text{
-    padding: 0 30px;
+    padding: 30px;
     text-align: justify;
 }
 
@@ -70,26 +63,16 @@
    padding: 100px 0;
 }
 
-/* .wrapcardclip{
+.wrapcardclip{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     margin: 20px 50px;
-} */
-
-
-.wrapcardclip{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
-    grid-gap:.1em;
-    margin: 0 50px
-  
-    
 }
 
 .wrapcardconnect{
-    padding: 50px;
+    padding: 50px 30px;
     height: 50vh;
     background: #f2f2f2;
     border-right:2px solid #ffffff;
@@ -101,7 +84,7 @@
 }
 
 .textconnect{
-    padding: 50px;
+    padding: 55px;
     height: 50vh;
     background: #f2f2f2;
     text-align:justify;
@@ -123,7 +106,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   
 }
 
@@ -141,7 +124,7 @@
 .wrapteam{
     display: flex;
     justify-content: center;
-    align-items: flex-start;  
+    align-items: center;  
     border-bottom: 1px solid #f2f2f2;
     padding:100px 20px;
 }
